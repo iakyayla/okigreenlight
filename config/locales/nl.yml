@@ -1,18 +1,18 @@
-# BigBlueButton open source conferencing system - http://www.bigbluebutton.org/.
+# Okinar open source conferencing system - http://www.Okinar.org/.
 #
-# Copyright (c) 2018 BigBlueButton Inc. and by respective authors (see below).
+# Copyright (c) 2018 Okinar Inc. and by respective authors (see below).
 #
 # This program is free software; you can redistribute it and/or modify it under the
 # terms of the GNU Lesser General Public License as published by the Free Software
 # Foundation; either version 3.0 of the License, or (at your option) any later
 # version.
 #
-# BigBlueButton is distributed in the hope that it will be useful, but WITHOUT ANY
+# Okinar is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License along
-# with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
+# with Okinar; if not, see <http://www.gnu.org/licenses/>.
 
 # Locale.
 
@@ -36,7 +36,7 @@ nl:
         enabled: Ingeschakeld
         info: Sta alleen geverifieerde gebruikers toe om deel te nemen aan een ruimte
         title: Verificatie vereist voor kamers
-        user-info: Je moet bij Greenlight inloggen om lid te kunnen worden van deze kamer
+        user-info: Je moet bij Okinar inloggen om lid te kunnen worden van deze kamer
       branding:
         change: Wijzig afbeelding
         info: Wijzig de merkafbeelding die in de linkerbovenhoek wordt weergegeven
@@ -83,7 +83,7 @@ nl:
       shared_access:
         info: "Als u dit instelt op uitgeschakeld, wordt de knop verwijderd uit de keuzelijst Kameropties, waardoor gebruikers geen kamers kunnen delen"
         title: Gebruikers toestaan kamers te delen
-      subtitle: Greenlight aanpassen
+      subtitle: Okinar aanpassen
       title: Site-instellingen
     flash:
       approved: Gebruiker is succesvol goedgekeurd.
@@ -131,13 +131,13 @@ nl:
     room_configuration:
       title: Kamerinstellingen
       mute:
-        info: Dempt automatisch de gebruiker wanneer ze deelnemen aan de BigBlueButton-vergadering
+        info: Dempt automatisch de gebruiker wanneer ze deelnemen aan de Okinar-vergadering
       require_moderator:
-        info: "Vraagt de moderator van de BigBlueButton-vergadering wanneer een gebruiker probeert deel te nemen. Als de gebruiker is goedgekeurd, kunnen ze deelnemen aan de vergadering."
+        info: "Vraagt de moderator van de Okinar-vergadering wanneer een gebruiker probeert deel te nemen. Als de gebruiker is goedgekeurd, kunnen ze deelnemen aan de vergadering."
       allow_any:
         info: Hiermee kan elke gebruiker de vergadering op elk moment starten. Standaard kan alleen de kamer eigenaar de vergadering starten.
       all_moderator:
-        info: Geeft alle gebruikers moderatorrechten in BigBlueButton wanneer ze deelnemen aan de vergadering.
+        info: Geeft alle gebruikers moderatorrechten in Okinar wanneer ze deelnemen aan de vergadering.
       options:
         disabled: Uitgeschakeld
         enabled: Altijd ingeschakeld
@@ -177,7 +177,7 @@ nl:
         username: Gebruikersnaam
       title: Gebruikers beheren
   add_to_google_calendar: "Toevoegen aan Google Agenda"
-  bigbluebutton: BigBlueButton
+  bigbluebutton: Okinar
   bigbluebutton_exception: "Oeps, er is een fout opgetreden bij het starten van de vergadering!"
   cancel: Annuleren
   cookies:
@@ -197,7 +197,7 @@ nl:
   errors:
     bigbluebutton:
       help: "Zorg ervoor dat de juiste stappen zijn genomen. <a href=\"%{doc_link}\"> Meer informatie </a>"
-      message: Ongeldig BigBlueButton-eindpunt en geheim
+      message: Ongeldig Okinar-eindpunt en geheim
       title: Serverfout
     internal:
       message: Het lijkt erop dat er iets mis is gegaan aan onze kant.
@@ -210,9 +210,9 @@ nl:
       contact_admin: "Als u geen beheerder bent, contacteer er dan een."
       continue: Ik wil graag 1.0 blijven gebruiken.
       notice: >-
-        Greenlight heeft een databasemigratiefout aangetroffen. <br> Dit kan zijn omdat u niet hebt bijgewerkt naar Greenlight 2.0.
+        Okinar heeft een databasemigratiefout aangetroffen. <br> Dit kan zijn omdat u niet hebt bijgewerkt naar Okinar 2.0.
       upgrade: Laat me zien hoe ik kan upgraden naar 2.0!
-      version: "We hebben een nieuwe versie van Greenlight uitgebracht, maar uw database is niet compatibel."
+      version: "We hebben een nieuwe versie van Okinar uitgebracht, maar uw database is niet compatibel."
     messages:
       blank: kan niet leeg zijn
       too_short: is te kort
@@ -223,7 +223,7 @@ nl:
       inclusion: is niet opgenomen in de lijst
     no_provider:
       message: "De site die u probeert te openen, is niet ingeschakeld"
-      help: Neem contact op met uw systeembeheerder om Greenlight in te stellen
+      help: Neem contact op met uw systeembeheerder om Okinar in te stellen
     not_found:
       message: "Sorry! De pagina die u zoekt, bestaat niet."
       help: "Is het mogelijk dat het is verwijderd?"
@@ -251,7 +251,7 @@ nl:
     email: E-mail
     submit: Verzenden
   go_back: Ga terug
-  greenlight: Greenlight
+  greenlight: Okinar
   header:
     all_recordings: Alle opnames
     dropdown:
@@ -270,16 +270,16 @@ nl:
       mailer:
         subject: 'heeft u uitgenodigd om een ​​opname te bekijken.'
         body: 'Volg de onderstaande link om de opname te bekijken:'
-        autogenerated: 'Deze e-mail werd automatisch gegenereerd door BigBlueButton.'
-        footer: 'BigBlueButton is een open source webconferentiesysteem. Zie https://bigbluebutton.org/ voor meer informatie over BigBlueButton.'
+        autogenerated: 'Deze e-mail werd automatisch gegenereerd door Okinar.'
+        footer: 'Okinar is een open source webconferentiesysteem. Zie https://Okinar.com/ voor meer informatie over Okinar.'
     search:
       start: Begin zoekopdracht
   landing:
-    about: "%{href} is een eenvoudige front-end voor uw BigBlueButton open-source webconferentieserver. U kunt uw eigen ruimtes maken om sessies te hosten of u kunt via een korte en handige link lid worden van anderen."
-    welcome: Welkom bij BigBlueButton.
-    video: Bekijk onze tutorial over het gebruik van Greenlight
+    about: "%{href} is een eenvoudige front-end voor uw Okinar open-source webconferentieserver. U kunt uw eigen ruimtes maken om sessies te hosten of u kunt via een korte en handige link lid worden van anderen."
+    welcome: Welkom bij Okinar.
+    video: Bekijk onze tutorial over het gebruik van Okinar
     upgrade: Laat me zien hoe ik kan upgraden naar 2.0!
-    version: "We hebben een nieuwe versie van Greenlight uitgebracht, maar uw database is niet compatibel."
+    version: "We hebben een nieuwe versie van Okinar uitgebracht, maar uw database is niet compatibel."
   language_default: Standaard (browsertaal)
   ldap_error: Kan geen verbinding maken met de LDAP-server. Controleer uw LDAP-configuratie in het env-bestand en zorg ervoor dat uw server actief is.
   login: Inloggen
@@ -291,10 +291,10 @@ nl:
         signin: "Om toegang te krijgen tot uw persoonlijke kamers, klikt u op de onderstaande knop en logt u in."
         signin_link: Inloggen
         signup:
-          info: Een nieuwe gebruiker heeft zich aangemeld om Greenlight te gebruiken.
-          more-info: "Om deze gebruiker toegang te geven tot Greenlight, moet u zijn account goedkeuren in de organisatie-instellingen."
+          info: Een nieuwe gebruiker heeft zich aangemeld om Okinar te gebruiken.
+          more-info: "Om deze gebruiker toegang te geven tot Okinar, moet u zijn account goedkeuren in de organisatie-instellingen."
           admins_link: Bezoek de organisatiepagina
-          subject: Nieuwe registratie van een Greenlightgebruiker
+          subject: Nieuwe registratie van een Okinargebruiker
           username: "De gebruiker heeft zich aangemeld met de naam %{name} en het e-mailadres %{email}."
         subject: Account goedgekeurd
         username: "Uw gebruikersnaam is %{email}."
@@ -308,11 +308,11 @@ nl:
         signup_info: Klik op de onderstaande knop om u aan te melden met uw e-mail en volg de stappen.
         signup_link: Registreren
         signup:
-          info: Een uitgenodigde gebruiker heeft zich aangemeld om Greenlight te gebruiken.
+          info: Een uitgenodigde gebruiker heeft zich aangemeld om Okinar te gebruiken.
           admins_link: Bezoek de organisatiepagina
-          subject: Nieuwe registratie van een Greenlightgebruiker
+          subject: Nieuwe registratie van een Okinargebruiker
           username: "De gebruiker heeft zich aangemeld met de naam %{name} en het e-mailadres %{email}."
-        subject: Uitnodiging om lid te worden van BigBlueButton
+        subject: Uitnodiging om lid te worden van Okinar
         username: "Uw gebruikersnaam is %{email}."
       password_reset:
         title: 'Wachtwoord reset'
